@@ -1,0 +1,23 @@
+{
+  "name": "imagesize",
+  "version": "1.0.0",
+  "description": "Get the size of an image without reading or downloading it entirely",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "nodeunit tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arnaud-lb/imagesize.js.git"
+  },
+  "keywords": [
+    "image",
+    "size"
+  ],
+  "author": "Arnaud Le Blanc <arnaud.lb@gmail.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
