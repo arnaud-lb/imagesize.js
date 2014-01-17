@@ -27,6 +27,13 @@ exports["test imagesize"] = (test) ->
       100
     ]
     [
+      "200x100.bmp"
+      imagesize.Parser.DONE
+      "bmp"
+      200
+      100
+    ]      
+    [
       "246x247.png"
       imagesize.Parser.DONE
       "png"
