@@ -1,7 +1,7 @@
 {
-  "name": "imagesize",
+  "name": "imagesize-ex",
   "version": "1.0.0",
-  "description": "Get the size of an image without reading or downloading it entirely",
+  "description": "Get the size of an image without reading or downloading it entirely(BMP type support)",
   "main": "index.js",
   "directories": {
     "test": "tests"
@@ -11,13 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/arnaud-lb/imagesize.js.git"
+    "url": "git://github.com/qlalfqjs5/imagesize.js.git"
   },
   "keywords": [
     "image",
     "size"
   ],
-  "author": "Arnaud Le Blanc <arnaud.lb@gmail.com>",
+  "author": "youngjoo <qlalfqjs5@gmail.com>",
   "license": "BSD",
-  "readmeFilename": "README.md"
+  "bugs": {
+    "url": "https://github.com/qlalfqjs5/imagesize.js/issues"
+  }
 }

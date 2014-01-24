@@ -1,14 +1,16 @@
-# imagesize.js
+# imagesize-ex
 
 Determines the size of an image without reading or downloading it entirely.
 
 Implemented using an incremental parser, and can be fed multiple times with data
 chunks of any size.
 
+Supported formats : GIF, PNG, JPG and BMP
+
 ## Usage
 
 ```
-var imagesize = require('imagesize');
+var imagesize = require('imagesize-ex');
 
 imagesize(stream, function (err, result) {
   if (!err) {
@@ -23,7 +25,7 @@ Full example:
 
 ```
 var http = require('http');
-var imagesize = require('imagesize');
+var imagesize = require('imagesize-ex');
 
 var request = http.get('http://nodejs.org/images/logo-light.png', function (response) {
   imagesize(response, function (err, result) {
@@ -40,7 +42,7 @@ var request = http.get('http://nodejs.org/images/logo-light.png', function (resp
 You can also use the incremental parser directly:
 
 ```
-var Parser = require('imagesize').Parser;
+var Parser = require('imagesize-ex').Parser;
 var parser = Parser();
 
 switch (parser.parse(buffer)) {
